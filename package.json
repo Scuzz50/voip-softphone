@@ -1,19 +1,19 @@
 {
   "name": "voip-softphone",
   "version": "1.0.0",
-  "description": "Electron-based SIP softphone for FusionPBX",
+  "description": "Electron-based multi-tenant SIP softphone for FusionPBX",
   "main": "src/main.js",
+  "author": "Kosta Theos",
+  "license": "MIT",
   "scripts": {
     "dev": "electron .",
     "make": "electron-builder"
   },
-  "author": "Kosta Theos",
-  "license": "MIT",
   "dependencies": {
-    "electron": "^28.1.0",
     "sip.js": "^0.20.0"
   },
   "devDependencies": {
+    "electron": "^28.1.0",
     "electron-builder": "^24.3.0",
     "tailwindcss": "^3.3.0",
     "postcss": "^8.4.0",
